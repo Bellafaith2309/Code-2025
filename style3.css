@@ -76,10 +76,12 @@ main {
 
 .product-item img {
   width: 100%;
+  max-width: 250px;
   height: auto;
   border-radius: 8px;
-  object-fit: cover;
-  max-height: 300px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
 }
 
 section {
